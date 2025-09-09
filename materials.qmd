@@ -14,6 +14,8 @@ Bechdel Dataset <a href="/files/data/bechdel.csv" download="bechdel.csv"> Downlo
 
 ## Markdowns For Activities
 
-Data Wrangling Origins Activity <a href="/files/_lab-rmd/data-wrangling.Rmd" download="data-wrangling.Rmd">Markdown for Wrangling Origins (.Rmd)</a>
+Data Wrangling Origins Activity <a href="/files/_lab-rmd/data-wrangling.Rmd" download="data-wrangling.Rmd">Wrangling Origins (.Rmd)</a>
 
-Describe & Visualize <a href="/files/_lab-rmd/describe-viz.Rmd" download="describe-viz.Rmd">Markdown - Describe & Visualize (.Rmd)</a>
+Describe & Visualize <a href="/files/_lab-rmd/describe-viz.Rmd" download="describe-viz.Rmd">Describe & Visualize (.Rmd)</a>
+
+Dark R's - <a href="/files/_lab-rmd/dark-rs.Rmd" download="dark-rs.Rmd">Dark Rs (.Rmd)</a>
