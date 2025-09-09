@@ -4,6 +4,32 @@ title: "AWARE-AI: Statistics Workshop"
 
 # Defense Against the Dark R's
 
+## Workshop Outline
+
+-   Introductions
+
+-   Getting Started with R
+
+-   Basic Descriptives and Visualizations
+
+-   Reproducible tables (correlations & regressions)
+
+-   Potential Topics:
+
+    -   Intro to Structural Equation Modeling
+
+        -   Exploratory Factor Analysis
+
+        -   Confirmatory Factor Analysis
+
+        -   Path Analysis
+
+        -   Latent Growth Curve Models
+
+        -   Random Intercept Cross Lagged Panel Model
+
+*Topics may shift based on need of those in attendance.*
+
 ## Instructor
 
 **Name:** Dr. Dustin Haraden, PhD
