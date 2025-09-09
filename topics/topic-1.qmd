@@ -1,11 +1,11 @@
 ---
-title: "Week 1"
+title: "Getting Started"
 editor: visual
 ---
 
-# Getting Started with R & Tidy Data
+# R & Tidy Data
 
-Welcome to the course! I am very excited to get to work with you this semester on our journey into statistics. During our first class, we will review the syllabus and the plan for the course, followed by walking through the structure of each of the classes.
+Welcome to the workshop (I hope this isn't the first time I am welcoming you)! I am very excited to get to work with you throughout this workshop. We will begin with a brief exploration into using R & R-Studio, and an overall emphasis on reproducible workflows. This first portion will set up
 
 We’ll then dive right into our primary tool, R. This session will go over installing R and RStudio, navigating the interface, understanding R projects, and learning the foundational syntax of the R language and the `tidyverse`, including data types and basic functions.
 
@@ -13,15 +13,13 @@ We’ll then dive right into our primary tool, R. This session will go over inst
 
 -   Install R and R-Studio (<https://posit.co/download/rstudio-desktop/>)
 
--   Bring Laptop
+-   Laptop
 
 ## Slides
 
-[💻 Getting Started - Syllabus](../slides/lec-1_syl.html){target="_blank"}
-
 [💻Getting Started - Data](../slides/lec-1_background.html){target="_blank"}
 
-## In-Class Activity
+## Activity
 
 [Getting Comfy with R](../class-activities/day1.html){target="_blank"}
 
@@ -36,5 +34,5 @@ We’ll then dive right into our primary tool, R. This session will go over inst
 <br><br>
 
 ::: {style="font-size: 0.875em;"}
-Back to [course schedule](/ "Course schedule") ⏎
+Back to [schedule](/ "schedule") ⏎
 :::

@@ -3,10 +3,10 @@ project:
   
 website: 
   page-navigation: true
-  title: "PSYC 640 - Graduate Statistics" 
-  site-url: "https://dharaden.github.io/psyc640" 
+  title: "AWARE-AI 2025 - Statistics Workshop" 
+  site-url: "https://dharaden.github.io/aware_2025" 
   
-  repo-url: https://github.com/dharaden/psyc640 
+  repo-url: https://github.com/dharaden/aware_2025 
   repo-actions: [edit, issue]
 
 
@@ -16,54 +16,33 @@ website:
   page-footer:
     right: "This page is built with ☕ and [Quarto](https://quarto.org/)."
     left: "&copy; CC-By Dustin Haraden, 2025"
-    background: "#ADE0C0"
+    background: "#3d3d3d"
     
   sidebar:
-    background: "#ADE0C0"
-    logo: "images/640_hex.png"
+    background: "#3d3d3d"
+    logo: "images/hex.png"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/dharaden/psyc640
+        href: https://github.com/dharaden/aware_2025
         text: "GitHub"
-      - icon: chalkboard
-        href: https://mycourses.rit.edu/d2l/login
-        text: "myCourses"
         
 
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 2
     contents:
       - section: "Course information"
         contents: 
-          - href: course-overview.qmd
-            text: "Overview"
-          - href: syllabus.qmd
-            text: "Syllabus"
-          - href: index.qmd
+          - href: schedule.qmd
             text: "Schedule"
-      - section: "Weekly Materials"
+          - href: index.qmd
+            text: "Overview"
+      - section: "Materials"
         contents:
-          - href: weeks/week-1.qmd
-            text: "Week 1"
-          - href: weeks/week-2.qmd
-            text: "Week 2"
-          - href: weeks/week-3.qmd
-            text: "Week 3"
-          - href: weeks/week-4.qmd
-            text: "Week 4"
-      - section: "Labs"
-        contents:
-          - href: labs/lab-1_data-workflow.qmd
-            text: "Lab 1 - Data Intro" 
-          - href: labs/lab-2_data-wrangling.qmd
-            text: "Lab 2 - Wrangling Intro" 
-      - href: resources.qmd
-        text: "Resources" 
-      - href: previous-years.qmd
-        text: "Previous Years"
+          - href: topics/topic-1.qmd
+            text: "Getting Started"
 
 format:
   html:
