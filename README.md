@@ -2,10 +2,6 @@
 
 🔗 [https://dharaden.github.io/aware_2025/](https://dharaden.github.io/aware_2025/)
 
-## Colors
-
-- website background: #D9E3E4
-- headings: #5B888C
 
 ## Attribution
 
