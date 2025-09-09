@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AWARE-AI: Statistics Workshop – AWARE-AI 2025 - Statistics Workshop</title>
+<title>Getting Comfy with R – AWARE-AI 2025 - Statistics Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,30 +20,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./topics/topic-1.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-befe23ebd2f54d8af2c8a89d1a1611f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4e18bdf33c699e0b3ca31df8aa01e82b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2938a8597f5624a231ad1722bf243c43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-4e18bdf33c699e0b3ca31df8aa01e82b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-befe23ebd2f54d8af2c8a89d1a1611f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-4e18bdf33c699e0b3ca31df8aa01e82b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-2938a8597f5624a231ad1722bf243c43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-4e18bdf33c699e0b3ca31df8aa01e82b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -73,7 +107,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="AWARE-AI: Statistics Workshop – AWARE-AI 2025 - Statistics Workshop">
+<meta property="og:title" content="Getting Comfy with R – AWARE-AI 2025 - Statistics Workshop">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="AWARE-AI 2025 - Statistics Workshop">
 </head>
 
@@ -248,7 +283,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Getting Comfy with R</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -262,8 +297,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/hex.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/dharaden/aware_2025" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
@@ -279,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
@@ -294,13 +329,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/topic-1.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/topic-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Getting Started</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./topics/tidy-viz.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/tidy-viz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">dplyr &amp; ggplot2</span></a>
   </div>
 </li>
@@ -308,13 +343,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./materials.html" class="sidebar-item-text sidebar-link">
+  <a href="../materials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Materials</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Additional Stuff</span></a>
   </div>
 </li>
@@ -328,23 +363,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#defense-against-the-dark-rs" id="toc-defense-against-the-dark-rs" class="nav-link active" data-scroll-target="#defense-against-the-dark-rs">Defense Against the Dark R’s</a>
-  <ul class="collapse">
-  <li><a href="#workshop-outline" id="toc-workshop-outline" class="nav-link" data-scroll-target="#workshop-outline">Workshop Outline</a></li>
-  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
-  <li><a href="#workshop-description" id="toc-workshop-description" class="nav-link" data-scroll-target="#workshop-description">Workshop Description</a>
-  <ul class="collapse">
-  <li><a href="#expectations-and-goals" id="toc-expectations-and-goals" class="nav-link" data-scroll-target="#expectations-and-goals">Expectations and Goals</a></li>
-  </ul></li>
-  <li><a href="#workshop-materials" id="toc-workshop-materials" class="nav-link" data-scroll-target="#workshop-materials">Workshop Materials</a>
-  <ul class="collapse">
-  <li><a href="#encouragedrequired-materials" id="toc-encouragedrequired-materials" class="nav-link" data-scroll-target="#encouragedrequired-materials">Encouraged/Required Materials</a></li>
-  <li><a href="#optional-materials" id="toc-optional-materials" class="nav-link" data-scroll-target="#optional-materials">Optional Materials</a></li>
-  </ul></li>
-  <li><a href="#recommended-future-readings" id="toc-recommended-future-readings" class="nav-link" data-scroll-target="#recommended-future-readings">Recommended Future Readings</a></li>
-  </ul></li>
+  <li><a href="#in-class-activity-your-first-r-session" id="toc-in-class-activity-your-first-r-session" class="nav-link active" data-scroll-target="#in-class-activity-your-first-r-session"><strong>In-Class Activity: Your First R Session</strong></a></li>
+  <li><a href="#create-a-new-markdown-document" id="toc-create-a-new-markdown-document" class="nav-link" data-scroll-target="#create-a-new-markdown-document">Create a new Markdown Document</a></li>
+  <li><a href="#your-first-analysis" id="toc-your-first-analysis" class="nav-link" data-scroll-target="#your-first-analysis"><strong>Your First “Analysis”</strong></a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/dharaden/aware_2025/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/dharaden/aware_2025/edit/main/activities/basic_intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -352,7 +375,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AWARE-AI: Statistics Workshop</h1>
+<h1 class="title">Getting Comfy with R</h1>
 </div>
 
 
@@ -369,84 +392,78 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="defense-against-the-dark-rs" class="level1">
-<h1>Defense Against the Dark R’s</h1>
-<section id="workshop-outline" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-outline">Workshop Outline</h2>
+<section id="in-class-activity-your-first-r-session" class="level3">
+<h3 class="anchored" data-anchor-id="in-class-activity-your-first-r-session"><strong>In-Class Activity: Your First R Session</strong></h3>
+<p><strong>Goal</strong>: To become familiar with the RStudio interface and perform a basic data exploration workflow.</p>
+</section>
+<section id="create-a-new-markdown-document" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-new-markdown-document">Create a new Markdown Document</h3>
+<ol type="1">
+<li><p>Go to <code>File &gt; New File &gt; R Markdown</code></p></li>
+<li><p>Provide a title and input your name as the author</p></li>
+<li><p>A script will open in the <strong>Source</strong> pane. Remove unnecessary code.</p></li>
+<li><p>Go to <code>File &gt; Save</code> and name it <code>introduction.Rmd</code>. Make sure this saves in the same folder as all of your other stuff (i.e., wherever the project is). Stay Organized!</p>
+<ol type="1">
+<li>I’m not going to tell you how to organize your folders, but I will give a suggestion. Have 1 folder for the whole class. This will have the Project that we created. Inside there, have a folder for “Class Activities”. This is where you can save this file. Then, have other folders for the labs and what not.</li>
+</ol></li>
+</ol>
+</section>
+<section id="your-first-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="your-first-analysis"><strong>Your First “Analysis”</strong></h3>
+<ol type="1">
+<li><p>Create a Code Chunk</p></li>
+<li><p>Load the <code>tidyverse</code> library</p></li>
+<li><p>Create the object <code>datawars</code> and assign dataset called <code>starwars</code> to it (hint: <code>data &lt;- cars</code>)</p></li>
+<li><p>Use <code>View()</code>, <code>head()</code> and <code>glimpse()</code> to look at <code>datawars</code></p></li>
+<li><p>In the text below, answer these questions:</p>
+<ol type="1">
+<li><p>What do each of these do?</p></li>
+<li><p>Which do you like more?</p></li>
+</ol></li>
+<li><p>Create another code chunk and use <code>summary()</code> to get descriptives of all variables in the dataset.</p>
+<ol type="1">
+<li>Look at the output of your <code>summary()</code> command. For the <code>mass</code> and <code>height</code> variables, you’ll see a value for <code>NA's</code>. In your own words, what do you think <code>NA</code> means in this context?</li>
+</ol></li>
+</ol>
+<section id="visualize-your-data" class="level4">
+<h4 class="anchored" data-anchor-id="visualize-your-data">Visualize your data</h4>
+<p>Now we want to investigate the relationship between <code>mass</code> and <code>height</code> in this dataset.</p>
 <ul>
-<li><p>Introductions</p></li>
-<li><p>Getting Started with R</p></li>
-<li><p>Basic Descriptives and Visualizations</p></li>
-<li><p>Reproducible tables (correlations &amp; regressions)</p></li>
-<li><p>Potential Topics:</p>
+<li><p>Create a scatterplot using <code>ggplot()</code>.</p></li>
+<li><p>The plot should show <code>height</code> on the x-axis and <code>mass</code> on the y-axis.</p></li>
+<li><p>Add some labels to make your plot clear and professional.</p>
 <ul>
-<li><p>Intro to Structural Equation Modeling</p>
-<ul>
-<li><p>Exploratory Factor Analysis</p></li>
-<li><p>Confirmatory Factor Analysis</p></li>
-<li><p>Path Analysis</p></li>
-<li><p>Latent Growth Curve Models</p></li>
-<li><p>Random Intercept Cross Lagged Panel Model</p></li>
+<li><strong>Hint:</strong> Use the code below as a template and fill in the blanks.</li>
 </ul></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> __, <span class="fu">aes</span>(<span class="at">x =</span> __, <span class="at">y =</span> __)) <span class="sc">+</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"__"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"__"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"__"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Look at your plot. Do you notice any characters that seem unusually heavy for their height? Briefly describe one.</li>
+</ul>
+</section>
+<section id="wrangle-your-data" class="level4">
+<h4 class="anchored" data-anchor-id="wrangle-your-data">Wrangle your Data</h4>
+<p>Since we have some outliers that seem to be related to non-human species, let’s just look at Humans.</p>
+<ol type="1">
+<li><p>Create a new object called <code>rebels</code>.</p></li>
+<li><p>This new object should contain only the characters from the <code>starwars</code> dataset where the <code>species</code> is “Human”.</p>
+<ul>
+<li><strong>Hint:</strong> Use the <code>filter()</code> function. The syntax is <code>new_object &lt;- old_object %&gt;% filter(column_name == "value")</code>. Remember that “Human” needs to be in quotes.</li>
 </ul></li>
-</ul>
-<p><em>Topics may shift based on need of those in attendance.</em></p>
-</section>
-<section id="instructor" class="level2">
-<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
-<p><strong>Name:</strong> Dr.&nbsp;Dustin Haraden, PhD</p>
-<p><strong>Email</strong>: <a href="mailto:dxhgsh@rit.edu">dxhgsh@rit.edu</a></p>
-<p><strong>Training</strong>:</p>
+<li><p>Print your new <code>rebels</code> object to the console to make sure your filter worked correctly. Once confirmed, calculate the average (hint: use <code>mean()</code>) for the height and weight of the <code>rebels</code>.</p></li>
+</ol>
 <ul>
-<li>University of Illinois at Urbana-Champaign, Clinical/Community Psychology</li>
+<li><p>How many rows are in your new <code>rebels</code> dataset?</p></li>
+<li><p>What is the average height and weight?</p></li>
 </ul>
-<p><strong>Research</strong>:</p>
-<ul>
-<li>Risk factors for depression in youth (specifically circadian rhythms, sleep &amp; puberty)</li>
-<li>Examinations risk &amp; protective factors across various life transitions (e.g., puberty, pregnancy, school) as it relates to psychopathology</li>
-<li>Measurement and Evaluation of psychopathology</li>
-<li>Statistical Methodology</li>
-</ul>
-<p><em>Feel free to contact me!</em></p>
-</section>
-<section id="workshop-description" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-description">Workshop Description</h2>
-<p>A foundation in organizing your R projects and combatting informal practices. Introduction and exploration of Open Science within a Clinical/Community framework.</p>
-<section id="expectations-and-goals" class="level3">
-<h3 class="anchored" data-anchor-id="expectations-and-goals">Expectations and Goals</h3>
-<p>The main goal of this course/workshop is to provide an on-ramp to using R in practice. There will likely be introductions to coding and using the software as well as important functions that are used within a social science perspective. Additionally, a goal is to introduce researchers to effective strategies and practices for organizing their research projects within R. The focus will revolve around promoting Open Science practices as they apply to own interests. I will introduce a workflow within R that will maximize reproducibility and attempt to future proof analyses (take that future Dustin!).</p>
-</section>
-</section>
-<section id="workshop-materials" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-materials">Workshop Materials</h2>
-<section id="encouragedrequired-materials" class="level3">
-<h3 class="anchored" data-anchor-id="encouragedrequired-materials">Encouraged/Required Materials</h3>
-<ul>
-<li>Computer with R &amp; R-studio installed &amp; Updated</li>
-<li>Laughter (WARNING: Instructor <u>will</u> make lame dad jokes)</li>
-<li>Curiosity/Interest</li>
-<li>Coffee, tea, or whatever beverage you prefer at this time</li>
-</ul>
-</section>
-<section id="optional-materials" class="level3">
-<h3 class="anchored" data-anchor-id="optional-materials">Optional Materials</h3>
-<ul>
-<li>Light Saber</li>
-<li>T.A.R.D.I.S./Sonic Screwdriver</li>
-<li>DeLorean</li>
-<li>One Ring to Rule Them All</li>
-</ul>
-</section>
-</section>
-<section id="recommended-future-readings" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-future-readings">Recommended Future Readings</h2>
-<p><strong>R for Data Science -</strong> <em>Hadley Wickham</em>, <a href="https://r4ds.hadley.nz/" class="uri">https://r4ds.hadley.nz/</a> (free)</p>
-<p><strong>R Markdown: The Definitive Guide -</strong> <em>Yihui Xie, J. J. Allaire, Garrett Grolemund;</em> <a href="https://bookdown.org/yihui/rmarkdown/" class="uri">https://bookdown.org/yihui/rmarkdown/</a> <em>(free)</em></p>
-<p><strong>What They Forgot to Teach You About R</strong> - <em>Jenny Bryan, Jim Hester, Shannon Pileggi, E. David Aja;</em> <a href="https://rstats.wtf/" class="uri">https://rstats.wtf/</a> (free)</p>
-<p><strong>Advanced R -</strong> <em>Hadley Wickham,</em> <a href="https://adv-r.hadley.nz/" class="uri">https://adv-r.hadley.nz/</a> (free)</p>
-<p><strong>The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice -</strong> <em>Chris Chambers</em> (check it out from the library &amp; give it a read when you can)</p>
-<p><strong>Improving your Statistical Inferences</strong> <em>- Daniël Lakens</em> <a href="https://lakens.github.io/statistical_inferences/" class="uri">https://lakens.github.io/statistical_inferences/</a> (free)</p>
-<p><strong>ggplot2: Elegant Graphics for Data Analysis</strong> - <em>Hadley Wickham, Danielle Navarro &amp; Thomas Lin Pedersen</em> <a href="https://ggplot2-book.org/" class="uri">https://ggplot2-book.org/</a> (free)</p>
+<ol start="4" type="1">
+<li>Create another scatterplot with your new dataset. Copy and update the code we used previously.</li>
+</ol>
+<p><strong><em>End of the document. Try knitting🧶 the document!</em></strong></p>
 
 
 </section>
@@ -865,15 +882,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./topics/topic-1.html" class="pagination-link" aria-label="Getting Started">
-        <span class="nav-page-text">Getting Started</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -882,7 +890,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dharaden/aware_2025/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dharaden/aware_2025/edit/main/activities/basic_intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ☕ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
