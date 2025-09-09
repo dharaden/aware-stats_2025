@@ -1,5 +1,5 @@
 ---
-title: "Week 3 Exercise - Describing & Visualizing"
+title: "Describing & Visualizing"
 subtitle: "Using psych and ggplot2"
 editor: visual
 ---
@@ -14,8 +14,6 @@ editor: visual
 
 3.  A script will open in the **Source** pane. Remove unnecessary code.
 
-4.  Go to `File > Save` and name it `week3.Rmd`. Make sure this saves in the same folder as all of your other stuff. Stay Organized!
-
 ## **Setting it up**
 
 1.  Create a Code Chunk
@@ -28,9 +26,9 @@ editor: visual
 
 ## The Data
 
-<a href="/files/data/wk3-viz.csv" download="wk3-viz.csv">Download Week 3 InClass Data (.csv)</a>
+<a href="/files/data/viz.csv" download="viz.csv">Download Viz Activity Data (.csv)</a>
 
-Download the data and move it to the correct folder so that you can access it in this lab.
+Download the data and move it to the correct folder so that you can access it in this activity.
 
 Your dataset is from a larger study that was examining the overall impact of sleep on energy (and vice versa). Students in different areas across the country completed various questionnaires. The current data is a selection of overall sleep quality rating (0-100) and overall energy level (0-100) across all cities. You will be asked to examine these variables in a descriptive and visual way for your specific city.
 

@@ -21,6 +21,8 @@ We’ll then dive right into our primary tool, R. This session will go over inst
 
 ## Activities
 
-[Getting Comfy with R](../activities/basic_intro.html){target="_blank"}
+📋[Getting Comfy with R](../activities/basic_intro.html){target="_blank"}
+
+📋[More Comfy with R](../activities/basic_intro2.html){target="_blank"}
 
 <br><br>

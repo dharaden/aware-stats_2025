@@ -46,7 +46,7 @@ Then, create a new Markdown Document that we will use for this activity
 
 Setup the libraries and bring in the data
 
--   We will use the TIPI data from the last lab
+-   We will use the TIPI data ([Download from here](../materials.html){target="_blank"})
 
 ```{r}
 #import  data - Your path may be different
@@ -58,9 +58,15 @@ tipi <- import(here("files", "data", "TIPI_Data.csv"))
 
 ## Naming Conventions
 
-Remember in the lab when things were named all funky? We used the `rename()` function to do that last time. This can be helpful if you want to change it to something specific, but we may just want to make these names a little cleaner.
+We could use the `rename()` function, but that take a lot of work. It can be helpful if you want to change it to something specific, but we may just want to make these names a little cleaner.
+
+![](images/clipboard-3265124470.png){fig-align="center" width="508"}
+
+------------------------------------------------------------------------
 
 **Introducing `janitor`** <https://sfirke.github.io/janitor/index.html>
+
+This function automatically puts column names into snake-case
 
 ```{r}
 #same code as before
@@ -82,7 +88,7 @@ You used this in lab, so you are all experts. Let's review by looking at the [ch
 
 The `dplyr` package makes data wrangling and transformation much easier. `select()` allows you to...well...select the columns that you want to keep.
 
-> Create a dataset that only includes: id, progress, duration, TIPI items
+> Create a dataset that only includes: id, progress, duration, sex, age, TIPI items and the sleep items
 
 ------------------------------------------------------------------------
 
@@ -90,19 +96,22 @@ The `dplyr` package makes data wrangling and transformation much easier. `select
 
 ```{r}
 tipi <- tipi %>% 
-  select(c(id, progress, duration_in_seconds, tipi_1, 
+  select(c(id, progress, duration_in_seconds,  sex, age, 
+           sleep_quality, hours_of_sleep, tipi_1, 
            tipi_2, tipi_3, tipi_4, tipi_5, tipi_6, tipi_7, 
            tipi_8, tipi_9, tipi_10))
 ```
 
 ``` r
 tipi <- tipi %>% 
-  select(c(id:duration_in_seconds, contains("tipi_")))
+  select(c(id:duration_in_seconds, sex, age, sleep_quality, 
+           hours_of_sleep, contains("tipi_")))
 
 ## OR
 
 tipi <- tipi %>% 
-  select(-c(consent:q85_6_text, sleep_quality, hours_of_sleep))
+  select(-c(consent:genderid_7_text, year_school:q85_6_text, 
+            sleep_quality, hours_of_sleep))
 ```
 
 # filter()
@@ -158,7 +167,7 @@ The `mutate()` function is most commonly used to add new columns to your data fr
 
 -   **Note**: New variables are automatically added at the end of the data frame (scroll to the right to see them)
 
-For example, in the lab, we had the [Ten Item Personality Inventory](https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/){target="_blank"}
+For example, we have the [Ten Item Personality Inventory](https://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/){target="_blank"}
 
 Take a look at the scoring of the TIPI and compute the necessary variables for all subscales
 
@@ -168,7 +177,7 @@ Take a look at the scoring of the TIPI and compute the necessary variables for a
 
 There are some items in questionnaire data that are rated in the opposite direction from the other items. These need to be "reverse coded" or "reverse scored"
 
-The TIPI documentions highlights certain variables that need this done
+The TIPI documention highlights certain variables that need this done
 
 We can take the max value, add 1, then subtract the Item
 

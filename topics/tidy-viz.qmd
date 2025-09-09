@@ -17,19 +17,19 @@ We are going to work on expanding our comfort with the syntax in R and using the
 
 "Illustrations from the [Openscapes](https://www.openscapes.org/) blog [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by Julia Lowndes and Allison Horst"
 
-## Prepare
-
--   Be sure to have read the chapters!
-
--   Download the data for this week
-
-<a href="https://drive.google.com/file/d/1zPHM4qR8j70vM1isyfl3cJyC5so_iLts/view?usp=sharing" download="TIPI_Data.csv">Download From Drive (CSV)</a>
-
 ## Slides
 
 [💻Wrangling with dplyr](../slides/wrangle.html){target="_blank"}
 
+[💻Describe & Visualize](../slides/desc-viz.html){target="_blank"}
+
 ## Activity
+
+📋[Data Wrangling Origin](../activities/data-wrangling-origin.html){target="_blank"}
+
+📋[Describe & Visualize 1](../activities/describe-viz1.html){target="_blank"}
+
+📋[Describe & Visualize 2](../activities/describe-viz2.html){target="_blank"}
 
 ## For Next Time
 

@@ -40,7 +40,7 @@ website:
           - href: topics/topic-1.qmd
             text: "Getting Started"
           - href: topics/tidy-viz.qmd
-            text: "Visualizing - ggplot2"
+            text: "dplyr & ggplot2"
       - href: materials.qmd
         text: "Materials"
       - href: resources.qmd

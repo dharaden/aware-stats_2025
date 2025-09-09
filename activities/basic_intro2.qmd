@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Foundations of a Data Workflow"
+title: "Foundations of a Data Workflow"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -13,11 +13,11 @@ Welcome to your first lab! The goal of this assignment is to move beyond
 basic syntax and begin practicing a reproducible data analysis workflow.
 
 Please complete the exercises below. Create a new `.Rmd` file and
-include the following at the top:
+include the following in the yaml header:
 
 ``` r
 ---
-title: "Lab 1: Foundations of a Data Workflow"
+title: "Foundations of a Data Workflow"
 author: "Your Name Here"
 date: "`r Sys.Date()`"
 output: html_document
@@ -92,7 +92,6 @@ sorted dataset.
 
 
 # Now, print the new, sorted `herbivores` object to see the result.
-
 ```
 
 **❓Question:** After sorting, which herbivore sleeps the most? How many
@@ -154,4 +153,4 @@ dataset?
 
 ------------------------------------------------------------------------
 
-*End of Lab 1. Don't forget to Knit! 🧶*
+*End. Don't forget to Knit! 🧶*

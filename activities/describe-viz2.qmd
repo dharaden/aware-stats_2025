@@ -1,5 +1,5 @@
 ---
-title: "Lab 3: Describing and Visualizing Data"
+title: "Describing and Visualizing Data"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -9,9 +9,9 @@ editor_options:
 
 ## Instructions
 
-Can't believe we're at Lab #3! Keep it going! We are going to continue
-to practice importing data and making a reproducible workflow. In this
-lab, you will be expanding the types of plots you are able to use.
+We are going to continue to practice importing data and making a
+reproducible workflow. In this activity, you will be expanding the types
+of plots you are able to use.
 
 We will be using data from the [Bechdel
 test](https://en.wikipedia.org/wiki/Bechdel_test), a measure of the
@@ -20,19 +20,18 @@ Exploratory Data Analysis.
 
 Here are the things that you will need for this lab:
 
--   <a href="/files/_lab-rmd/lab-3_describe-viz.Rmd" download="lab-3_describe-viz.Rmd">Download
-    Lab 3 (.Rmd)</a>
--   <a href="/files/data/bechdel.csv" download="bechdel.csv">Download
-    Bechdel Data (.csv)</a>
+Describe & Visualize
+<a href="/files/_lab-rmd/describe-viz.Rmd" download="describe-viz.Rmd">Markdown -
+Describe & Visualize (.Rmd)</a>
 
-When you are finished, click the **Knit** button to turn your work into
-an HTML document. You will submit both this `.Rmd` file and the
-🧶knitted `.html` file.
+Bechdel Dataset
+<a href="/files/data/bechdel.csv" download="bechdel.csv"> Download
+Bechdel Data (.csv)</a>
 
 ## Scenario and Goal
 
-In this lab, you will act as a data journalist exploring a dataset on
-movies. We will use the data from the FiveThirtyEight story “The
+In this activity, you will act as a data journalist exploring a dataset
+on movies. We will use the data from the FiveThirtyEight story “The
 Dollar-And-Cents Case Against Hollywood’s Exclusion of Women.”
 
 This analysis is about the [Bechdel
@@ -60,8 +59,6 @@ analysis, known as **Exploratory Data Analysis (EDA)**.
     -   `notalk` = women don’t talk to each other
 
     -   `nowomen` = fewer than two women
-
-<!-- -->
 
 -   `binary`: Bechdel Test PASS vs FAIL binary
 
@@ -152,6 +149,6 @@ and fail the test?
 
 ------------------------------------------------------------------------
 
-*End of Lab 3. You've now practiced exploratory data analysis! It is
-always important to visualize your data to get a good sense of what you
-are working with. Don't forget to Knit! 🧶*
+*End. You've now practiced exploratory data analysis! It is always
+important to visualize your data to get a good sense of what you are
+working with. Don't forget to try to Knit! 🧶*
