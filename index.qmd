@@ -58,3 +58,7 @@ The main goal of this course/workshop is to provide an on-ramp to using R in pra
 **Advanced R -** *Hadley Wickham,* <https://adv-r.hadley.nz/> (free)
 
 **The Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice -** *Chris Chambers* (check it out from the library & give it a read when you can)
+
+**Improving your Statistical Inferences** *- Daniël Lakens* <https://lakens.github.io/statistical_inferences/> (free)
+
+**ggplot2: Elegant Graphics for Data Analysis** - *Hadley Wickham, Danielle Navarro & Thomas Lin Pedersen* <https://ggplot2-book.org/> (free)

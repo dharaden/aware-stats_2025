@@ -1,11 +1,9 @@
 ---
-title: "Week 2"
+title: "Tidy & Visualizations"
 editor: visual
 ---
 
-# R & Tidy Data
-
-You survived the first week! I hope your classes are off to a good start. Although we don't have class this week (Labor Day), we will still have readings and an assignment. Please view this page to make sure you have all the information you need to get going.
+# Tidy Data & Visualizations
 
 We are going to work on expanding our comfort with the syntax in R and using the tidyverse for some more data wrangling. We will import some new data, and compute some new values. This will be a skill that will be useful no matter what data you are working with. There will be plenty of practice with this!
 
@@ -29,11 +27,9 @@ We are going to work on expanding our comfort with the syntax in R and using the
 
 ## Slides
 
-None (Labor Day)
+[💻Wrangling with dplyr](../slides/wrangle.html){target="_blank"}
 
-## In-Class Activity
-
-No Class this week (Labor Day)
+## Activity
 
 ## For Next Time
 

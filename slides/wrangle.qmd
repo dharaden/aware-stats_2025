@@ -1,8 +1,8 @@
 ---
-title: "Week 03: Wrangling"
-subtitle: "Date: September 8, 2025"
-footer:  "[course-website](https://dharaden.github.io/psyc640/)"
-logo: "images/640_hex.png"
+title: "dplyr: Wrangling"
+subtitle: "Date: September 10, 2025"
+footer:  "[course-website](https://dharaden.github.io/aware_2025/)"
+logo: "images/hex.png"
 format: 
   revealjs:
     theme: clean.scss
@@ -20,19 +20,7 @@ execute:
   freeze: auto
 ---
 
-# Today
-
 ![](images/clipboard-4156918685.png)
-
-# Introduce: Library Tracker
-
-There are so many things to remember. Let's try to make it easier.
-
-[Group Library Tracker](https://docs.google.com/document/d/1s5HqvebeLKwuXAaudsp_TjzN9_khCPohqXlaYalMMug/edit?usp=sharing){target="_blank"}
-
-Use this page to document the different libraries that we are using in class and for the labs. Share any other libraries that you find a long the way!
-
-Remember, this is for future you! Let's try to be nice to them.
 
 ------------------------------------------------------------------------
 
@@ -54,7 +42,7 @@ options(scipen=999)
 
 Let's first start by opening our **`Project`**
 
-Then, create a new Notebook/Markdown Document that we will use for today
+Then, create a new Markdown Document that we will use for this activity
 
 Setup the libraries and bring in the data
 
@@ -63,7 +51,7 @@ Setup the libraries and bring in the data
 ```{r}
 #import  data - Your path may be different
 tipi <- import(here("files", "data", "TIPI_Data.csv"))
-names(tipi)
+
 ```
 
 ------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 ---
-title: "Day 1 Exercise - Getting Comfy with R"
+title: "Getting Comfy with R"
 editor: visual
 ---
 
@@ -11,35 +11,13 @@ editor: visual
 
 1.  Go to `File > New File > R Markdown`
 
-2.  Provide the title "Day 1" and input your name as the author
+2.  Provide a title and input your name as the author
 
 3.  A script will open in the **Source** pane. Remove unnecessary code.
 
-4.  Go to `File > Save` and name it `introduction.Rmd`. Make sure this saves in the same folder as all of your other stuff. Stay Organized!
+4.  Go to `File > Save` and name it `introduction.Rmd`. Make sure this saves in the same folder as all of your other stuff (i.e., wherever the project is). Stay Organized!
 
     1.  I'm not going to tell you how to organize your folders, but I will give a suggestion. Have 1 folder for the whole class. This will have the Project that we created. Inside there, have a folder for "Class Activities". This is where you can save this file. Then, have other folders for the labs and what not.
-
-### Starting the document
-
-In the text field of the markdown file, introduce yourself! Answer these questions below:
-
-> -   Name:
->
-> -   Pronouns
->
-> -   Year in school
->
-> -   PhD/Thesis/Capstone
->
-> -   Area of psychology
->
-> -   Research interests
->
-> -   Comfort with R (1-10 with 10 being "Expert")
->
-> -   Overall feelings toward Statistics
->
-> -   Anything else you want to share
 
 ### **Your First "Analysis"**
 
@@ -101,8 +79,4 @@ Since we have some outliers that seem to be related to non-human species, let's 
 
 4.  Create another scatterplot with your new dataset. Copy and update the code we used previously.
 
-### Closing out the Document
-
-What is 1 thing you are looking forward to this semester and 1 thing that you are worried about (can be in or outside of this class)?
-
-***End of the document. Remember to Knit and upload to myCourses.***
+***End of the document. Try knitting🧶 the document!***

@@ -91,12 +91,12 @@ You should now have 2 datasets (1 for the entire sample, and 1 for your city). C
 
 ```
 
-| Your City    | Total Sample  |
-|--------------|---------------|
-| Sleep Mean:  | Sleep Mean:   |
-| Sleep SD:    | Sleep SD:     |
-| Energy Mean: | Energy Mean:  |
-| Energy SD:   | Energy SD:    |
+| Your City    | Total Sample |
+|--------------|--------------|
+| Sleep Mean:  | Sleep Mean:  |
+| Sleep SD:    | Sleep SD:    |
+| Energy Mean: | Energy Mean: |
+| Energy SD:   | Energy SD:   |
 
 ❓How are the mean and standard deviations similar/different?
 
