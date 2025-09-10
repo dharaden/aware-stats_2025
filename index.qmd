@@ -1,5 +1,6 @@
 ---
 title: "AWARE-AI: Statistics Workshop"
+subtitle: "Sept. 9, 2025"
 ---
 
 # Defense Against the Dark R's
@@ -13,6 +14,8 @@ title: "AWARE-AI: Statistics Workshop"
 -   Basic Descriptives and Visualizations
 
 -   Reproducible tables (correlations & regressions)
+
+-   Integrating stats into text
 
 -   Potential Topics:
 
@@ -30,24 +33,17 @@ title: "AWARE-AI: Statistics Workshop"
 
 *Topics may shift based on need of those in attendance.*
 
-## Instructor
+## Who is Presenting??
 
-**Name:** Dr. Dustin Haraden, PhD
+My name is Dustin Haraden and I am an assistant professor at Rochester Institute of Technology in New York, USA. I am a clinical psychologist with a focus on developmental psychopathology. My research centers on investigating circadian rhythms, sleep and pubertal development as risk factors for psychopathology in youth. I received my PhD in Clinical/Community Psychology at the University of Illinois at Urbana-Champaign.
 
-**Email**: [dxhgsh\@rit.edu](mailto:dxhgsh@rit.edu)
+Feel free to reach out to me after the completion of this workshop! I love talking about R and getting folks more familiar with the awesome tool that it is. Plus, I would love to learn some cool new things.
 
-**Training**:
+Seriously, send me an email.
 
--   University of Illinois at Urbana-Champaign, Clinical/Community Psychology
+*Presenter:* Dustin Haraden, PhD
 
-**Research**:
-
--   Risk factors for depression in youth (specifically circadian rhythms, sleep & puberty)
--   Examinations risk & protective factors across various life transitions (e.g., puberty, pregnancy, school) as it relates to psychopathology
--   Measurement and Evaluation of psychopathology
--   Statistical Methodology
-
-*Feel free to contact me!*
+*Contact:* Email - [dxhgsh\@rit.edu](mailto:dxhgsh@rit.edu){.email}; BlueSky - @dustinharaden.bsky.social
 
 ## Workshop Description
 

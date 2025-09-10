@@ -1,7 +1,7 @@
 ---
 title: "dplyr: Wrangling"
 subtitle: "Date: September 10, 2025"
-footer:  "[course-website](https://dharaden.github.io/aware_2025/)"
+footer:  "[workshop-website](https://dharaden.github.io/aware-stats_2025/)"
 logo: "images/hex.png"
 format: 
   revealjs:

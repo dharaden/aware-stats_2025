@@ -4,9 +4,9 @@ project:
 website: 
   page-navigation: true
   title: "AWARE-AI 2025 - Statistics Workshop" 
-  site-url: "https://dharaden.github.io/aware_2025" 
+  site-url: "https://dharaden.github.io/aware-stats_2025" 
   
-  repo-url: https://github.com/dharaden/aware_2025 
+  repo-url: https://github.com/dharaden/aware-stats_2025 
   repo-actions: [edit, issue]
 
 
@@ -25,7 +25,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/dharaden/aware_2025
+        href: https://github.com/dharaden/aware-stats_2025
         text: "GitHub"
         
 
@@ -41,6 +41,8 @@ website:
             text: "Getting Started"
           - href: topics/tidy-viz.qmd
             text: "dplyr & ggplot2"
+          - href: topics/tab-mark.qmd
+            text: "Tables & Reporting"
       - href: materials.qmd
         text: "Materials"
       - href: resources.qmd

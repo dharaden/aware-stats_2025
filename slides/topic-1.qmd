@@ -1,7 +1,7 @@
 ---
 title: "Getting Started!"
 subtitle: "Date: 09/10/2025"
-footer:  "[website](https://dharaden.github.io/aware_2025/)"
+footer:  "[workshop-website](https://dharaden.github.io/aware-stats_2025/)"
 logo: "images/hex.png"
 format: 
   revealjs:
@@ -219,3 +219,7 @@ Creating a Project puts these things in their place & Establishes your working d
 -   Set up a Markdown Document
 
 -   Run and Knit the document
+
+::: callout-note
+This is a reminder to Dr Haraden to talk to everyone about keyboard shortcuts.
+:::
