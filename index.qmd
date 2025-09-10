@@ -1,5 +1,5 @@
 ---
-title: "AWARE-AI: Statistics Workshop"
+title: "AI-PROWIL IRES: Statistics Workshop"
 subtitle: "Sept. 9, 2025"
 ---
 

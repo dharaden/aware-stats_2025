@@ -137,7 +137,7 @@ Cool library to work with missing data! `install.packages('misty')` <https://www
 #  psych::alpha()
 ```
 
-# More fun stuff we can explore: 
+# More fun stuff we can explore:
 
 🔗`rticles` - <https://pkgs.rstudio.com/rticles/>
 
