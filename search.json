@@ -156,140 +156,140 @@
   {
     "objectID": "slides/template-seasons.html#quarto",
     "href": "slides/template-seasons.html#quarto",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Quarto",
     "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
   },
   {
     "objectID": "slides/template-seasons.html#bullets",
     "href": "slides/template-seasons.html#bullets",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Bullets",
     "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nlm(mpg ~ disp, data = mtcars)\n\n\nCall:\nlm(formula = mpg ~ disp, data = mtcars)\n\nCoefficients:\n(Intercept)         disp  \n   29.59985     -0.04122"
   },
   {
     "objectID": "slides/template-seasons.html#latex-equations",
     "href": "slides/template-seasons.html#latex-equations",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "LaTeX Equations",
     "text": "LaTeX Equations\nMathJax rendering of equations to HTML\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
   },
   {
     "objectID": "slides/template-seasons.html#tables",
     "href": "slides/template-seasons.html#tables",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Tables",
     "text": "Tables\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText"
   },
   {
     "objectID": "slides/template-seasons.html#callout-blocks",
     "href": "slides/template-seasons.html#callout-blocks",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Callout Blocks",
     "text": "Callout Blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\n\nImportant\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip With Caption\n\n\nThis is an example of a callout with a caption."
   },
   {
     "objectID": "slides/template-seasons.html#quarto-1",
     "href": "slides/template-seasons.html#quarto-1",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Quarto",
     "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
   },
   {
     "objectID": "slides/template-seasons.html#bullets-1",
     "href": "slides/template-seasons.html#bullets-1",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Bullets",
     "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nlm(mpg ~ disp, data = mtcars)\n\n\nCall:\nlm(formula = mpg ~ disp, data = mtcars)\n\nCoefficients:\n(Intercept)         disp  \n   29.59985     -0.04122"
   },
   {
     "objectID": "slides/template-seasons.html#latex-equations-1",
     "href": "slides/template-seasons.html#latex-equations-1",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "LaTeX Equations",
     "text": "LaTeX Equations\nMathJax rendering of equations to HTML\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
   },
   {
     "objectID": "slides/template-seasons.html#tables-1",
     "href": "slides/template-seasons.html#tables-1",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Tables",
     "text": "Tables\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText"
   },
   {
     "objectID": "slides/template-seasons.html#callout-blocks-1",
     "href": "slides/template-seasons.html#callout-blocks-1",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Callout Blocks",
     "text": "Callout Blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\n\nImportant\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip With Caption\n\n\nThis is an example of a callout with a caption."
   },
   {
     "objectID": "slides/template-seasons.html#quarto-2",
     "href": "slides/template-seasons.html#quarto-2",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Quarto",
     "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
   },
   {
     "objectID": "slides/template-seasons.html#bullets-2",
     "href": "slides/template-seasons.html#bullets-2",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Bullets",
     "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nlm(mpg ~ disp, data = mtcars)\n\n\nCall:\nlm(formula = mpg ~ disp, data = mtcars)\n\nCoefficients:\n(Intercept)         disp  \n   29.59985     -0.04122"
   },
   {
     "objectID": "slides/template-seasons.html#latex-equations-2",
     "href": "slides/template-seasons.html#latex-equations-2",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "LaTeX Equations",
     "text": "LaTeX Equations\nMathJax rendering of equations to HTML\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
   },
   {
     "objectID": "slides/template-seasons.html#tables-2",
     "href": "slides/template-seasons.html#tables-2",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Tables",
     "text": "Tables\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText"
   },
   {
     "objectID": "slides/template-seasons.html#callout-blocks-2",
     "href": "slides/template-seasons.html#callout-blocks-2",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Callout Blocks",
     "text": "Callout Blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\n\nImportant\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip With Caption\n\n\nThis is an example of a callout with a caption."
   },
   {
     "objectID": "slides/template-seasons.html#quarto-3",
     "href": "slides/template-seasons.html#quarto-3",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Quarto",
     "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
   },
   {
     "objectID": "slides/template-seasons.html#bullets-3",
     "href": "slides/template-seasons.html#bullets-3",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Bullets",
     "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\nlm(mpg ~ disp, data = mtcars)\n\n\nCall:\nlm(formula = mpg ~ disp, data = mtcars)\n\nCoefficients:\n(Intercept)         disp  \n   29.59985     -0.04122"
   },
   {
     "objectID": "slides/template-seasons.html#latex-equations-3",
     "href": "slides/template-seasons.html#latex-equations-3",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "LaTeX Equations",
     "text": "LaTeX Equations\nMathJax rendering of equations to HTML\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
   },
   {
     "objectID": "slides/template-seasons.html#tables-3",
     "href": "slides/template-seasons.html#tables-3",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Tables",
     "text": "Tables\n\n\n\nSyntax\nDescription\n\n\n\n\nHeader\nTitle\n\n\nParagraph\nText"
   },
   {
     "objectID": "slides/template-seasons.html#callout-blocks-3",
     "href": "slides/template-seasons.html#callout-blocks-3",
-    "title": "AWARE-AI 2025 - Statistics Workshop",
+    "title": "AI-PROWIL IRES 2025 - Statistics Workshop",
     "section": "Callout Blocks",
     "text": "Callout Blocks\n\n\n\n\n\n\nNote\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\n\nImportant\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\n\nTip With Caption\n\n\nThis is an example of a callout with a caption."
   },
@@ -923,7 +923,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "AWARE-AI: Statistics Workshop",
+    "title": "AI-PROWIL IRES: Statistics Workshop",
     "section": "",
     "text": "Introductions\nGetting Started with R\nBasic Descriptives and Visualizations\nReproducible tables (correlations & regressions)\nIntegrating stats into text\nPotential Topics:\n\nIntro to Structural Equation Modeling\n\nExploratory Factor Analysis\nConfirmatory Factor Analysis\nPath Analysis\nLatent Growth Curve Models\nRandom Intercept Cross Lagged Panel Model\n\n\n\nTopics may shift based on need of those in attendance.\n\n\n\nMy name is Dustin Haraden and I am an assistant professor at Rochester Institute of Technology in New York, USA. I am a clinical psychologist with a focus on developmental psychopathology. My research centers on investigating circadian rhythms, sleep and pubertal development as risk factors for psychopathology in youth. I received my PhD in Clinical/Community Psychology at the University of Illinois at Urbana-Champaign.\nFeel free to reach out to me after the completion of this workshop! I love talking about R and getting folks more familiar with the awesome tool that it is. Plus, I would love to learn some cool new things.\nSeriously, send me an email.\nPresenter: Dustin Haraden, PhD\nContact: Email - dxhgsh@rit.edu; BlueSky - @dustinharaden.bsky.social\n\n\n\nA foundation in organizing your R projects and combatting informal practices. Introduction and exploration of Open Science within a Clinical/Community framework.\n\n\nThe main goal of this course/workshop is to provide an on-ramp to using R in practice. There will likely be introductions to coding and using the software as well as important functions that are used within a social science perspective. Additionally, a goal is to introduce researchers to effective strategies and practices for organizing their research projects within R. The focus will revolve around promoting Open Science practices as they apply to own interests. I will introduce a workflow within R that will maximize reproducibility and attempt to future proof analyses (take that future Dustin!).\n\n\n\n\n\n\n\nComputer with R & R-studio installed & Updated\nLaughter (WARNING: Instructor will make lame dad jokes)\nCuriosity/Interest\nCoffee, tea, or whatever beverage you prefer at this time\n\n\n\n\n\nLight Saber\nT.A.R.D.I.S./Sonic Screwdriver\nDeLorean\nOne Ring to Rule Them All\n\n\n\n\n\nR for Data Science - Hadley Wickham, https://r4ds.hadley.nz/ (free)\nR Markdown: The Definitive Guide - Yihui Xie, J. J. Allaire, Garrett Grolemund; https://bookdown.org/yihui/rmarkdown/ (free)\nWhat They Forgot to Teach You About R - Jenny Bryan, Jim Hester, Shannon Pileggi, E. David Aja; https://rstats.wtf/ (free)\nAdvanced R - Hadley Wickham, https://adv-r.hadley.nz/ (free)\nThe Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice - Chris Chambers (check it out from the library & give it a read when you can)\nImproving your Statistical Inferences - Daniël Lakens https://lakens.github.io/statistical_inferences/ (free)\nggplot2: Elegant Graphics for Data Analysis - Hadley Wickham, Danielle Navarro & Thomas Lin Pedersen https://ggplot2-book.org/ (free)",
     "crumbs": [
@@ -933,7 +933,7 @@
   {
     "objectID": "index.html#workshop-outline",
     "href": "index.html#workshop-outline",
-    "title": "AWARE-AI: Statistics Workshop",
+    "title": "AI-PROWIL IRES: Statistics Workshop",
     "section": "",
     "text": "Introductions\nGetting Started with R\nBasic Descriptives and Visualizations\nReproducible tables (correlations & regressions)\nIntegrating stats into text\nPotential Topics:\n\nIntro to Structural Equation Modeling\n\nExploratory Factor Analysis\nConfirmatory Factor Analysis\nPath Analysis\nLatent Growth Curve Models\nRandom Intercept Cross Lagged Panel Model\n\n\n\nTopics may shift based on need of those in attendance.",
     "crumbs": [
@@ -943,7 +943,7 @@
   {
     "objectID": "index.html#who-is-presenting",
     "href": "index.html#who-is-presenting",
-    "title": "AWARE-AI: Statistics Workshop",
+    "title": "AI-PROWIL IRES: Statistics Workshop",
     "section": "",
     "text": "My name is Dustin Haraden and I am an assistant professor at Rochester Institute of Technology in New York, USA. I am a clinical psychologist with a focus on developmental psychopathology. My research centers on investigating circadian rhythms, sleep and pubertal development as risk factors for psychopathology in youth. I received my PhD in Clinical/Community Psychology at the University of Illinois at Urbana-Champaign.\nFeel free to reach out to me after the completion of this workshop! I love talking about R and getting folks more familiar with the awesome tool that it is. Plus, I would love to learn some cool new things.\nSeriously, send me an email.\nPresenter: Dustin Haraden, PhD\nContact: Email - dxhgsh@rit.edu; BlueSky - @dustinharaden.bsky.social",
     "crumbs": [
@@ -953,7 +953,7 @@
   {
     "objectID": "index.html#workshop-description",
     "href": "index.html#workshop-description",
-    "title": "AWARE-AI: Statistics Workshop",
+    "title": "AI-PROWIL IRES: Statistics Workshop",
     "section": "",
     "text": "A foundation in organizing your R projects and combatting informal practices. Introduction and exploration of Open Science within a Clinical/Community framework.\n\n\nThe main goal of this course/workshop is to provide an on-ramp to using R in practice. There will likely be introductions to coding and using the software as well as important functions that are used within a social science perspective. Additionally, a goal is to introduce researchers to effective strategies and practices for organizing their research projects within R. The focus will revolve around promoting Open Science practices as they apply to own interests. I will introduce a workflow within R that will maximize reproducibility and attempt to future proof analyses (take that future Dustin!).",
     "crumbs": [
@@ -963,7 +963,7 @@
   {
     "objectID": "index.html#workshop-materials",
     "href": "index.html#workshop-materials",
-    "title": "AWARE-AI: Statistics Workshop",
+    "title": "AI-PROWIL IRES: Statistics Workshop",
     "section": "",
     "text": "Computer with R & R-studio installed & Updated\nLaughter (WARNING: Instructor will make lame dad jokes)\nCuriosity/Interest\nCoffee, tea, or whatever beverage you prefer at this time\n\n\n\n\n\nLight Saber\nT.A.R.D.I.S./Sonic Screwdriver\nDeLorean\nOne Ring to Rule Them All",
     "crumbs": [
@@ -973,7 +973,7 @@
   {
     "objectID": "index.html#recommended-future-readings",
     "href": "index.html#recommended-future-readings",
-    "title": "AWARE-AI: Statistics Workshop",
+    "title": "AI-PROWIL IRES: Statistics Workshop",
     "section": "",
     "text": "R for Data Science - Hadley Wickham, https://r4ds.hadley.nz/ (free)\nR Markdown: The Definitive Guide - Yihui Xie, J. J. Allaire, Garrett Grolemund; https://bookdown.org/yihui/rmarkdown/ (free)\nWhat They Forgot to Teach You About R - Jenny Bryan, Jim Hester, Shannon Pileggi, E. David Aja; https://rstats.wtf/ (free)\nAdvanced R - Hadley Wickham, https://adv-r.hadley.nz/ (free)\nThe Seven Deadly Sins of Psychology: A Manifesto for Reforming the Culture of Scientific Practice - Chris Chambers (check it out from the library & give it a read when you can)\nImproving your Statistical Inferences - Daniël Lakens https://lakens.github.io/statistical_inferences/ (free)\nggplot2: Elegant Graphics for Data Analysis - Hadley Wickham, Danielle Navarro & Thomas Lin Pedersen https://ggplot2-book.org/ (free)",
     "crumbs": [
