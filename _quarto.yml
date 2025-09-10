@@ -41,6 +41,8 @@ website:
             text: "Getting Started"
           - href: topics/tidy-viz.qmd
             text: "dplyr & ggplot2"
+          - href: topics/tab-mark.qmd
+            text: "Tables & Reporting"
       - href: materials.qmd
         text: "Materials"
       - href: resources.qmd

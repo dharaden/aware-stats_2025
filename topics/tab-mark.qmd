@@ -1,0 +1,26 @@
+---
+title: "Tables & Reporting"
+editor: visual
+---
+
+# Using the Power of R-Markdown
+
+![](images/clipboard-861228540.png)
+
+We are going to explore some of the useful libraries to report tables in R, and try to capitalize on how R knits information. The goal is to have all analyses and the text in a single document that will update as necessary.
+
+There won't be any slides with this one, we will just work on doing some coding together!
+
+## Slides
+
+[💻Wrangling with dplyr](../slides/wrangle.html){target="_blank"}
+
+[💻Describe & Visualize](../slides/desc-viz.html){target="_blank"}
+
+## Activity
+
+📋[Data Wrangling Origin](../activities/data-wrangling-origin.html){target="_blank"}
+
+📋[Describe & Visualize 1](../activities/describe-viz1.html){target="_blank"}
+
+📋[Describe & Visualize 2](../activities/describe-viz2.html){target="_blank"}
