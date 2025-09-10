@@ -1,11 +1,7 @@
-# Website for PSYC 640 at RIT (Fall 2025)
+# Website for workshop in statistics for AWARE-AI
 
-🔗 https://dharaden.github.io/psyc640/
+🔗 [https://dharaden.github.io/aware_2025/](https://dharaden.github.io/aware_2025/)
 
-## Colors
-
-- website background: #D9E3E4
-- headings: #5B888C
 
 ## Attribution
 
