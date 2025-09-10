@@ -14,45 +14,6 @@ editor_options:
     wrap: 72
 ---
 
-# Introduction
-
-## Who is Presenting??
-
-My name is Dustin Haraden and I am an assistant professor at Rochester
-Institute of Technology in New York, USA. I am a clinical psychologist
-with a focus on developmental psychopathology. My research centers on
-investigating circadian rhythms, sleep and pubertal development as risk
-factors for psychopathology in youth.
-
-Feel free to reach out to me after the completion of this workshop! I
-love talking about R and getting folks more familiar with the awesome
-tool that it is. Plus, I would love to learn some cool new things.
-
-Seriously, send me an email.
-
-*Presenter:* Dustin Haraden, PhD
-
-*Contact:* Email - [dxhgsh\@rit.edu](mailto:dxhgsh@rit.edu){.email};
-BlueSky - @dustinharaden.bsky.social
-
-# Overview
-
-The main goal of this workshop is to have everyone more comfortable with
-a reproducible workflow in R. We will also explore some packages that I
-have found to help with the data processing and reporting. Finally, we
-will explore writing reports and papers in R using packages such as
-`papaja`.
-
-Please interrupt with any questions or concerns that you have. I have an
-outline of things that I would like to cover, but I am happy to move
-things into a different direction if the group would like that.
-
-I like to have these workshops be participatory and will involve a lot
-of live coding. I always found it more challenging to be given the
-script to run everything right from the beginning. So we will be coding
-together! That means I will likely make mistakes. In the end, all final
-materials will be shared.
-
 # Getting Started
 
 ## Useful Resources

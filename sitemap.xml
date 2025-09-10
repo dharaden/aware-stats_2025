@@ -1,147 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/lec-1_background.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/slides/desc-viz.html</loc>
+    <lastmod>2025-09-10T03:05:14.880Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/desc-viz.html</loc>
-    <lastmod>2025-09-09T21:00:52.819Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/slides/topic-1.html</loc>
+    <lastmod>2025-09-10T03:05:14.965Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/wrangle.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/slides/template-seasons.html</loc>
+    <lastmod>2025-09-10T03:05:14.965Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/lec-temp.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/labs/lab-2_data-wrangling.html</loc>
+    <lastmod>2025-09-10T03:05:14.879Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/template-seasons.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/materials.html</loc>
+    <lastmod>2025-09-10T03:05:14.879Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/labs/lab-2_data-wrangling.html</loc>
-    <lastmod>2025-09-09T21:00:52.816Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/topics/tidy-viz.html</loc>
+    <lastmod>2025-09-10T03:05:14.984Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/resources/introwrangling.html</loc>
-    <lastmod>2025-09-09T21:00:52.818Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/topics/tab-mark.html</loc>
+    <lastmod>2025-09-10T03:05:14.984Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/materials.html</loc>
-    <lastmod>2025-09-09T21:00:52.816Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/weeks/week-2.html</loc>
+    <lastmod>2025-09-10T03:05:14.992Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/index.html</loc>
-    <lastmod>2025-09-09T21:00:52.816Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/weeks/week-4.html</loc>
+    <lastmod>2025-09-10T03:05:14.992Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/topics/tidy-viz.html</loc>
-    <lastmod>2025-09-09T21:00:52.910Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/activities/data-wrangling-origin.html</loc>
+    <lastmod>2025-09-10T03:05:14.835Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/topics/week-4.html</loc>
-    <lastmod>2025-09-09T21:00:52.910Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/activities/basic_intro.html</loc>
+    <lastmod>2025-09-10T03:05:14.835Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/syllabus.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/resources.html</loc>
+    <lastmod>2025-09-10T03:05:14.880Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/weeks/week-2.html</loc>
-    <lastmod>2025-09-09T21:00:52.917Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/activities/basic_intro2.html</loc>
+    <lastmod>2025-09-10T03:05:14.835Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/weeks/week-4.html</loc>
-    <lastmod>2025-09-09T21:00:52.917Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/activities/describe-viz1.html</loc>
+    <lastmod>2025-09-10T03:05:14.836Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/activities/data-wrangling-origin.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/activities/describe-viz2.html</loc>
+    <lastmod>2025-09-10T03:05:14.836Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/activities/basic_intro.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/weeks/week-1.html</loc>
+    <lastmod>2025-09-10T03:05:14.992Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/course-overview.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/weeks/week-3.html</loc>
+    <lastmod>2025-09-10T03:05:14.992Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/class-activities/wk3_desc-viz.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/topics/topic-1.html</loc>
+    <lastmod>2025-09-10T03:05:14.984Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/resources.html</loc>
-    <lastmod>2025-09-09T21:00:52.817Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/index.html</loc>
+    <lastmod>2025-09-10T03:05:14.879Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/class-activities/day1.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/labs/lab-3_describe-viz.html</loc>
+    <lastmod>2025-09-10T03:05:14.879Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/activities/basic_intro2.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/labs/lab-1_data-workflow.html</loc>
+    <lastmod>2025-09-10T03:05:14.879Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/activities/describe-viz1.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/slides/lec-temp.html</loc>
+    <lastmod>2025-09-10T03:05:14.965Z</lastmod>
   </url>
   <url>
-    <loc>https://dharaden.github.io/aware_2025/activities/describe-viz2.html</loc>
-    <lastmod>2025-09-09T21:00:52.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/weeks/week-1.html</loc>
-    <lastmod>2025-09-09T21:00:52.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/weeks/week-3.html</loc>
-    <lastmod>2025-09-09T21:00:52.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/ideas.html</loc>
-    <lastmod>2025-09-09T21:00:52.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/topics/topic-1.html</loc>
-    <lastmod>2025-09-09T21:00:52.910Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/topics/week-3.html</loc>
-    <lastmod>2025-09-09T21:00:52.910Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/previous-years.html</loc>
-    <lastmod>2025-09-09T21:00:52.816Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/resources/startingwithR.html</loc>
-    <lastmod>2025-09-09T21:00:52.818Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/labs/lab-3_describe-viz.html</loc>
-    <lastmod>2025-09-09T21:00:52.816Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/labs/lab-1_data-workflow.html</loc>
-    <lastmod>2025-09-09T21:00:52.816Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/lec-3_desc-viz.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/topic-1.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/lec-1_syl.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dharaden.github.io/aware_2025/slides/lec-3_wrangle.html</loc>
-    <lastmod>2025-09-09T21:00:52.903Z</lastmod>
+    <loc>https://dharaden.github.io/aware-stats_2025/slides/wrangle.html</loc>
+    <lastmod>2025-09-10T03:05:14.965Z</lastmod>
   </url>
 </urlset>
