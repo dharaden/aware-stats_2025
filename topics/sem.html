@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Week 2 – AI-PROWIL IRES 2025 - Statistics Workshop</title>
+<title>Structural Equation Modeling – AI-PROWIL IRES 2025 - Statistics Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -29,6 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../materials.html" rel="next">
+<link href="../topics/tab-mark.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,11 +109,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Week 2 – AI-PROWIL IRES 2025 - Statistics Workshop">
+<meta property="og:title" content="Structural Equation Modeling – AI-PROWIL IRES 2025 - Statistics Workshop">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://dharaden.github.io/aware-stats_2025/weeks/images/clipboard-2598929654.jpeg">
+<meta property="og:image" content="https://dharaden.github.io/aware-stats_2025/topics/images/clipboard-3884973427.png">
 <meta property="og:site_name" content="AI-PROWIL IRES 2025 - Statistics Workshop">
-<meta property="og:image:alt" content="Stylized text providing an overview of Tidy Data. The top reads “Tidy data is a standard way of mapping the meaning of a dataset to its structure. - Hadley Wickham.” On the left reads “In tidy data: each variable forms a column; each observation forms a row; each cell is a single measurement.” There is an example table on the lower right with columns ‘id’, ‘name’ and ‘color’ with observations for different cats, illustrating tidy data structure.">
+<meta property="og:image:height" content="557">
+<meta property="og:image:width" content="1238">
 </head>
 
 <body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -250,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 2</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/topic-1.html">Topics</a></li><li class="breadcrumb-item"><a href="../topics/sem.html">Structural Equation Modeling</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -314,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../topics/sem.html" class="sidebar-item-text sidebar-link">
+  <a href="../topics/sem.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Structural Equation Modeling</span></a>
   </div>
 </li>
@@ -342,23 +380,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-tidy-data" id="toc-r-tidy-data" class="nav-link active" data-scroll-target="#r-tidy-data">R &amp; Tidy Data</a>
-  <ul class="collapse">
-  <li><a href="#prepare" id="toc-prepare" class="nav-link" data-scroll-target="#prepare">Prepare</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#in-class-activity" id="toc-in-class-activity" class="nav-link" data-scroll-target="#in-class-activity">In-Class Activity</a></li>
-  <li><a href="#for-next-time" id="toc-for-next-time" class="nav-link" data-scroll-target="#for-next-time">For Next Time</a></li>
-  </ul></li>
+  <li><a href="#sem" id="toc-sem" class="nav-link active" data-scroll-target="#sem">SEM</a></li>
+  <li><a href="#sem-in-r" id="toc-sem-in-r" class="nav-link" data-scroll-target="#sem-in-r">SEM in R</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/dharaden/aware-stats_2025/edit/main/weeks/week-2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware-stats_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/dharaden/aware-stats_2025/edit/main/topics/sem.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware-stats_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../topics/topic-1.html">Topics</a></li><li class="breadcrumb-item"><a href="../topics/sem.html">Structural Equation Modeling</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Week 2</h1>
+<h1 class="title">Structural Equation Modeling</h1>
 </div>
 
 
@@ -375,59 +408,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="r-tidy-data" class="level1">
-<h1>R &amp; Tidy Data</h1>
-<p>You survived the first week! I hope your classes are off to a good start. Although we don’t have class this week (Labor Day), we will still have readings and an assignment. Please view this page to make sure you have all the information you need to get going.</p>
-<p>We are going to work on expanding our comfort with the syntax in R and using the tidyverse for some more data wrangling. We will import some new data, and compute some new values. This will be a skill that will be useful no matter what data you are working with. There will be plenty of practice with this!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2598929654.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Stylized text providing an overview of Tidy Data. The top reads “Tidy data is a standard way of mapping the meaning of a dataset to its structure. - Hadley Wickham.” On the left reads “In tidy data: each variable forms a column; each observation forms a row; each cell is a single measurement.” There is an example table on the lower right with columns ‘id’, ‘name’ and ‘color’ with observations for different cats, illustrating tidy data structure."></p>
-</figure>
+<section id="sem" class="level1">
+<h1>SEM</h1>
+<p>There are so many different directions that we can go in when it comes to Structural Equation Modeling. In my opinion, it is one of the most versatile techniques that can be used for the type of work that I do. One major strength of SEM is that it aligns with the way that we conceptualize various psychological constructs.</p>
+<p>For example, take a second and ask yourself “What is depression or anxiety?”. I’ll wait.</p>
+<p>You better not be reading this if you didn’t think about the question before. Is depression/anxiety something that can be directly measured and observed in the same way that mass or distance can? Can we take someone’s blood or do a scan and point to the output and say “there is the depression”?</p>
+<p>We can’t.</p>
+<p>Then we are working in the space that is unable to be directly observed. We have to take multiple measures of things that we think are related to the construct. Once we have those measurements, we can look at them together and assume that because we are seeing these things, then someone is experienced depression or anxiety.</p>
+<p>To accurately model this, we can implement Structural Equation Modeling. This deals with “latent” (or unobserved) variables. By taking manifest (observed) variables, we can investigate the overall variance and covariance among these items to determine an underlying, latent construct.</p>
+<p>A good example of a latent variable is IQ and the overall “g-factor”. We use these individual tests that we can observe to make claims about overall intelligence which is not something we are able to directly tap into.</p>
+<p><img src="images/clipboard-3884973427.png" class="img-fluid"></p>
+</section>
+<section id="sem-in-r" class="level1">
+<h1>SEM in R</h1>
+<p>There have been lots of advancements in computing and using R for SEM have become increasingly popular (another program to use is M-Plus, but you have to pay for that, so we won’t talk about it). The package that I like to use for SEM in R is <code>lavaan</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lavaan)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>This is lavaan 0.6-19
+lavaan is FREE software! Please report any bugs.</code></pre>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-2360662664.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="There are two sets of anthropomorphized data tables. The top group of three tables are all rectangular and smiling, with a shared speech bubble reading “our columns are variables and our rows are observations!”. Text to the left of that group reads “The standard structure of tidy data means that “tidy datasets are all alike…” The lower group of four tables are all different shapes, look ragged and concerned, and have different speech bubbles reading (from left to right) “my column are values and my rows are variables”, “I have variables in columns AND in rows”, “I have multiple variables in a single column”, and “I don’t even KNOW what my deal is.” Next to the frazzled data tables is text “...but every messy dataset is messy in its own way. -Hadley Wickham.”"></p>
-</figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-3996106271.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="On the left is a happy cute fuzzy monster holding a rectangular data frame with a tool that fits the data frame shape. On the workbench behind the monster are other data frames of similar rectangular shape, and neatly arranged tools that also look like they would fit those data frames. The workbench looks uncluttered and tidy. The text above the tidy workbench reads “When working with tidy data, we can use the same tools in similar ways for different datasets…” On the right is a cute monster looking very frustrated, using duct tape and other tools to haphazardly tie data tables together, each in a different way. The monster is in front of a messy, cluttered workbench. The text above the frustrated monster reads “...but working with untidy data often means reinventing the wheel with one-time approaches that are hard to iterate or reuse.”"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/clipboard-1634193936.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Cute fuzzy monsters putting rectangular data tables onto a conveyor belt. Along the conveyor belt line are different automated “stations” that update the data, reading “WRANGLE”, “VISUALIZE”, and “MODEL”. A monster at the end of the conveyor belt is carrying away a table that reads “Complete analysis.”"></p>
-</figure>
-</div>
-<p>“Illustrations from the <a href="https://www.openscapes.org/">Openscapes</a> blog <a href="https://www.openscapes.org/blog/2020/10/12/tidy-data/">Tidy Data for reproducibility, efficiency, and collaboration</a> by Julia Lowndes and Allison Horst”</p>
-<section id="prepare" class="level2">
-<h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
+<p>There is a whole lot of things that we can do, and I will leave it up to the group to determine where we want to go. I’ve given a workshop on Random Intercept Cross-Lagged Panel models if we want to do that. The slides and script can be found over in <a href="../materials.html" target="_blank">Materials</a>. Otherwise, here are some areas we can explore:</p>
 <ul>
-<li><p>Be sure to have read the chapters!</p></li>
-<li><p>Download the data for this week</p></li>
+<li><p>Exploratory Factor Analysis</p></li>
+<li><p>Confirmatory Factor Analysis</p></li>
+<li><p>Path Analysis</p></li>
+<li><p>Latent Growth Curve Models</p></li>
+<li><p>Random Intercept Cross Lagged Panel Model</p></li>
 </ul>
-<p><a href="https://drive.google.com/file/d/1zPHM4qR8j70vM1isyfl3cJyC5so_iLts/view?usp=sharing" download="TIPI_Data.csv">Download From Drive (CSV)</a></p>
-</section>
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p>None (Labor Day)</p>
-</section>
-<section id="in-class-activity" class="level2">
-<h2 class="anchored" data-anchor-id="in-class-activity">In-Class Activity</h2>
-<p>No Class this week (Labor Day)</p>
-</section>
-<section id="for-next-time" class="level2">
-<h2 class="anchored" data-anchor-id="for-next-time">For Next Time</h2>
-<p>📋<a href="../labs/lab-2_data-wrangling.html">Lab 2 - Getting Comfy with Data Wrangling</a></p>
-<p>📖Read <a href="https://learningstatisticswithr.com/book/" target="_blank">Chapter 5 - LSR</a></p>
-<p>📖Read <a href="https://r4ds.hadley.nz/" target="_blank">Chapter 1 &amp; 3 - R4DS</a></p>
-<p><br><br></p>
-<div style="font-size: 0.875em;">
-<p>Back to <a href=".." title="Course schedule">course schedule</a> ⏎</p>
-</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -843,6 +854,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../topics/tab-mark.html" class="pagination-link" aria-label="Tables &amp; Reporting">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Tables &amp; Reporting</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../materials.html" class="pagination-link" aria-label="Materials">
+        <span class="nav-page-text">Materials</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -851,7 +874,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dharaden/aware-stats_2025/edit/main/weeks/week-2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware-stats_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dharaden/aware-stats_2025/edit/main/topics/sem.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dharaden/aware-stats_2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ☕ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

@@ -349,6 +349,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Tables &amp; Reporting</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./topics/sem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Structural Equation Modeling</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -373,7 +379,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#getting-started-with-r" id="toc-getting-started-with-r" class="nav-link active" data-scroll-target="#getting-started-with-r">Getting Started with R</a>
+  <li><a href="#random-libraries" id="toc-random-libraries" class="nav-link active" data-scroll-target="#random-libraries">Random Libraries</a></li>
+  <li><a href="#getting-started-with-r" id="toc-getting-started-with-r" class="nav-link" data-scroll-target="#getting-started-with-r">Getting Started with R</a>
   <ul class="collapse">
   <li><a href="#installing-r-r-studio" id="toc-installing-r-r-studio" class="nav-link" data-scroll-target="#installing-r-r-studio">Installing R &amp; R-Studio</a>
   <ul class="collapse">
@@ -475,6 +482,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<section id="random-libraries" class="level1">
+<h1>Random Libraries</h1>
+<p><a href="https://rempsyc.remi-theriault.com/index.html" target="_blank">rempsych</a> - Convenience functions for psychology</p>
+<p><a href="https://cjvanlissa.github.io/tidySEM/" target="_blank">tidySEM</a> - Provides a ‘tidy’ workflow for conducting, reporting and plotting Structural Equation Modeling</p>
+<p><a href="https://easystats.github.io/easystats/" target="_blank">easystats</a> - An R Framework for Easy Statistical Modeling, Visualization, and Reporting</p>
+</section>
 <section id="getting-started-with-r" class="level1">
 <h1>Getting Started with R</h1>
 <section id="installing-r-r-studio" class="level2">
@@ -591,7 +604,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Import the data using the <strong>rio</strong> package and save it to an object called <strong>sleep_data</strong>. You will be able to use the <strong>import()</strong> function as well as the <strong>here()</strong> function.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 101%">
+<col style="width: 100%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -678,7 +691,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Notes:</strong> If you load a library at the beginning, you can directly call any function from it. Instead, you can call a function by library_name::function_name without loading the entire library.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 70%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -706,7 +719,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>To load all the packages included in the tidyverse, use:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 93%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -836,7 +849,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>For example, we can filter rows to retain data only for the students who do not have a roommate.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 38%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -864,7 +877,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>First, let’s filter for observations that are greater than the mean of <strong>age</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 61%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -893,7 +906,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Select one variable</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 33%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -905,7 +918,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Select multiple variables</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 65%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -917,7 +930,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Select a range of variables</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 61%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -930,7 +943,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>De-select variables with a minus sign (-)</strong></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 30%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -943,7 +956,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Note: everything() is a helper function that gives us all the remaining variables in the data frame (see more on<a href="https://uopsych.github.io/psy611/labs/lab-5_instructor.html#helper"></a>helper functions below)</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 47%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -958,8 +971,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>There are some “helper” functions that you can use along with select() that can sometimes be more efficient than selecting your variables explicitly by name.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 35%">
-<col style="width: 64%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1003,7 +1016,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Quick example:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 41%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1023,7 +1036,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 100%">
+<col style="width: 70%">
 </colgroup>
 <tbody>
 <tr class="odd">
