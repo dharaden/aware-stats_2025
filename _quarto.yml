@@ -43,6 +43,8 @@ website:
             text: "dplyr & ggplot2"
           - href: topics/tab-mark.qmd
             text: "Tables & Reporting"
+          - href: topics/sem.qmd
+            text: "Structural Equation Modeling"
       - href: materials.qmd
         text: "Materials"
       - href: resources.qmd
