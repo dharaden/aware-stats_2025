@@ -1,5 +1,6 @@
 ---
 title: "AWARE-AI: Statistics Workshop"
+subtitle: "Sept. 9, 2025"
 ---
 
 # Defense Against the Dark R's
