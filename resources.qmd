@@ -2,6 +2,14 @@
 title: Resources
 ---
 
+# Random Libraries
+
+[rempsych](https://rempsyc.remi-theriault.com/index.html){target="_blank"} - Convenience functions for psychology
+
+[tidySEM](https://cjvanlissa.github.io/tidySEM/){target="_blank"} - Provides a 'tidy' workflow for conducting, reporting and plotting Structural Equation Modeling
+
+[easystats](https://easystats.github.io/easystats/){target="_blank"} - An R Framework for Easy Statistical Modeling, Visualization, and Reporting
+
 # Getting Started with R
 
 ## Installing R & R-Studio
@@ -138,9 +146,9 @@ library(here) library(tidyverse) library(rio)
 
 Import the data using the **rio** package and save it to an object called **sleep_data**. You will be able to use the **import()** function as well as the **here()** function.
 
-+-------------------------------------------------------------------------------+
+|  |
+|----|
 | **sleep_data \<- import(here(“Labs”, “Data”, “SleepFile”, “SleepData.sav”))** |
-+-------------------------------------------------------------------------------+
 
 # Visualizing Distributions
 
@@ -224,13 +232,13 @@ This function automatically calculates all of the descriptives we reviewed above
 
 **Notes:** If you load a library at the beginning, you can directly call any function from it. Instead, you can call a function by library_name::function_name without loading the entire library.
 
-+-----------------------------------------------------------------------+
-| **psych::describe(sleep_data)**                                       |
-|                                                                       |
-| **\# or if you have already loaded the library**                      |
-|                                                                       |
-| **describe(sleep_data)**                                              |
-+-----------------------------------------------------------------------+
++--------------------------------------------------+
+| **psych::describe(sleep_data)**                  |
+|                                                  |
+| **\# or if you have already loaded the library** |
+|                                                  |
+| **describe(sleep_data)**                         |
++--------------------------------------------------+
 
 NOTE: Some variables are not numeric and are **categorical** variables of type character. By default, the describe() function forces non-numeric variables to be numeric and attempts to calculate descriptives for them. These variables are marked with an asterisk (\*). In this case, it doesn’t make sense to calculate descriptive statistics for these variables, so we get a warning message and a bunch of NaN’s and NA’s for these variables.
 
@@ -254,13 +262,13 @@ The tidyverse, according to its creators, is [“an opinionated collection of R 
 
 To load all the packages included in the tidyverse, use:
 
-+-----------------------------------------------------------------------+
-| **\# if you need to install, use install.packages(‘tidyverse’)**      |
-|                                                                       |
-| **library(tidyverse)**                                                |
-|                                                                       |
-| **library(dplyr)**                                                    |
-+-----------------------------------------------------------------------+
++------------------------------------------------------------------+
+| **\# if you need to install, use install.packages(‘tidyverse’)** |
+|                                                                  |
+| **library(tidyverse)**                                           |
+|                                                                  |
+| **library(dplyr)**                                               |
++------------------------------------------------------------------+
 
 Three qualities of the tidyverse are worth mentioning at the outset:
 
@@ -386,11 +394,11 @@ The first argument is data and subsequent arguments are logical expressions that
 
 For example, we can filter rows to retain data only for the students who do not have a roommate.
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **filter(roommate == 2)**                                             |
-+-----------------------------------------------------------------------+
++---------------------------+
+| **sleep_data %\>%**       |
+|                           |
+| **filter(roommate == 2)** |
++---------------------------+
 
 But we may want to save this as a new datafile. Can assign this to a new object.
 
@@ -414,11 +422,11 @@ You can combine multiple arguments to filter() with Boolean operators. The figur
 
 First, let’s filter for observations that are greater than the mean of **age**
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **filter(age \> mean(age, na.rm = TRUE)**                             |
-+-----------------------------------------------------------------------+
++-------------------------------------------+
+| **sleep_data %\>%**                       |
+|                                           |
+| **filter(age \> mean(age, na.rm = TRUE)** |
++-------------------------------------------+
 
 Now, you try filtering observations that are greater than the mean of happiness, but the participant does have a roommate: 
 
@@ -438,79 +446,71 @@ The first argument is data, followed by the name(s) of the column(s) you want to
 
 **Select one variable**
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **select(bed_study)**                                                 |
-+-----------------------------------------------------------------------+
++-----------------------+
+| **sleep_data %\>%**   |
+|                       |
+| **select(bed_study)** |
++-----------------------+
 
 **Select multiple variables**
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **select(bed_study, bed_read, bed_friends)**                          |
-+-----------------------------------------------------------------------+
++----------------------------------------------+
+| **sleep_data %\>%**                          |
+|                                              |
+| **select(bed_study, bed_read, bed_friends)** |
++----------------------------------------------+
 
 **Select a range of variables**
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **select(bed_study:bed_videogames) %\>%**                             |
-|                                                                       |
-| **names()**                                                           |
-+-----------------------------------------------------------------------+
++-------------------------------------------+
+| **sleep_data %\>%**                       |
+|                                           |
+| **select(bed_study:bed_videogames) %\>%** |
+|                                           |
+| **names()**                               |
++-------------------------------------------+
 
 **De-select variables with a minus sign (-)**
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **select(-age)**                                                      |
-+-----------------------------------------------------------------------+
++---------------------+
+| **sleep_data %\>%** |
+|                     |
+| **select(-age)**    |
++---------------------+
 
 **De-select range of variables**
 
 Note: everything() is a helper function that gives us all the remaining variables in the data frame (see more on[ ](https://uopsych.github.io/psy611/labs/lab-5_instructor.html#helper)helper functions below)
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **select(-(ESS1:everything())**                                       |
-+-----------------------------------------------------------------------+
++---------------------------------+
+| **sleep_data %\>%**             |
+|                                 |
+| **select(-(ESS1:everything())** |
++---------------------------------+
 
 ### **Helper functions for select()**
 
 There are some “helper” functions that you can use along with select() that can sometimes be more efficient than selecting your variables explicitly by name.
 
-+-----------------------------------+-----------------------------------------------------------------+
-| **function**                      | **what it does**                                                |
-+-----------------------------------+-----------------------------------------------------------------+
-| starts_with()                     | selects columns starting with a string                          |
-+-----------------------------------+-----------------------------------------------------------------+
-| ends_with()                       | selects columns that end with a string                          |
-+-----------------------------------+-----------------------------------------------------------------+
-| contains()                        | selects columns that contain a string                           |
-+-----------------------------------+-----------------------------------------------------------------+
-| matches()                         | selects columns that match a regular expression                 |
-+-----------------------------------+-----------------------------------------------------------------+
-| num_ranges()                      | selects columns that match a numerical range                    |
-+-----------------------------------+-----------------------------------------------------------------+
-| one_of()                          | selects columns whose names match entries in a character vector |
-+-----------------------------------+-----------------------------------------------------------------+
-| everything()                      | selects all columns                                             |
-+-----------------------------------+-----------------------------------------------------------------+
-| last_col()                        | selects last column; can include an offset.                     |
-+-----------------------------------+-----------------------------------------------------------------+
+|  |  |
+|----|----|
+| **function** | **what it does** |
+| starts_with() | selects columns starting with a string |
+| ends_with() | selects columns that end with a string |
+| contains() | selects columns that contain a string |
+| matches() | selects columns that match a regular expression |
+| num_ranges() | selects columns that match a numerical range |
+| one_of() | selects columns whose names match entries in a character vector |
+| everything() | selects all columns |
+| last_col() | selects last column; can include an offset. |
 
 Quick example:
 
-+-----------------------------------------------------------------------+
-| **sleep_data %\>%**                                                   |
-|                                                                       |
-| **select(starts_with(“a”)**                                           |
-+-----------------------------------------------------------------------+
++-----------------------------+
+| **sleep_data %\>%**         |
+|                             |
+| **select(starts_with(“a”)** |
++-----------------------------+
 
 ### Make new variables with **mutate()**
 
@@ -522,10 +522,10 @@ Create new variables
 
 -   **Note**: New variables are automatically added at the end of the data frame (scroll to the right to see them)
 
-+-----------------------------------------------------------------------+
-| **sleep_data \<- sleep_data %\>%**                                    |
-|                                                                       |
-| **mutate(ess_sum = ESS1 + ESS2 + ESS3 + ESS4 +**                      |
-|                                                                       |
-| **ESS5 + ESS6 + ESS7 + ESS8)**                                        |
-+-----------------------------------------------------------------------+
++--------------------------------------------------+
+| **sleep_data \<- sleep_data %\>%**               |
+|                                                  |
+| **mutate(ess_sum = ESS1 + ESS2 + ESS3 + ESS4 +** |
+|                                                  |
+| **ESS5 + ESS6 + ESS7 + ESS8)**                   |
++--------------------------------------------------+

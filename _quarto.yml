@@ -3,7 +3,7 @@ project:
   
 website: 
   page-navigation: true
-  title: "AWARE-AI 2025 - Statistics Workshop" 
+  title: "AI-PROWIL IRES 2025 - Statistics Workshop" 
   site-url: "https://dharaden.github.io/aware-stats_2025" 
   
   repo-url: https://github.com/dharaden/aware-stats_2025 
@@ -43,6 +43,8 @@ website:
             text: "dplyr & ggplot2"
           - href: topics/tab-mark.qmd
             text: "Tables & Reporting"
+          - href: topics/sem.qmd
+            text: "Structural Equation Modeling"
       - href: materials.qmd
         text: "Materials"
       - href: resources.qmd
